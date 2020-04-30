@@ -57,6 +57,8 @@ OpenSSL is a toolkit for supporting cryptography. The openssl-devel
 package contains include files needed to develop applications which
 support various cryptographic algorithms and protocols.
 
+%global debug_package %{nil}
+
 %prep
 %setup -q -n openssl-%{version}
 
