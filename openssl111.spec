@@ -55,7 +55,6 @@ Patch70: openssl-1.1.1-rewire-fips-drbg.patch
 Patch52: openssl-1.1.1-s390x-update.patch
 Patch53: openssl-1.1.1-fips-crng-test.patch
 Patch55: openssl-1.1.1-arm-update.patch
-Patch56: openssl-1.1.1-s390x-ecc.patch
 
 License: OpenSSL
 Group: System Environment/Libraries
@@ -129,7 +128,6 @@ support various cryptographic algorithms and protocols.
 %patch52 -p1 -b .s390x-update
 %patch53 -p1 -b .crng-test
 %patch55 -p1 -b .arm-update
-%patch56 -p1 -b .s390x-ecc
 %patch60 -p1 -b .krb5-kdf
 %patch61 -p1 -b .edk2-build
 %patch62 -p1 -b .fips-curves
